@@ -14,5 +14,9 @@ public class FunFactsActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fun_facts);
+
+        // Assign the Views from the layout file to the corresponding variables
+        factTextView = (TextView) findViewById(R.id.factsTextView);
+
     }
 }

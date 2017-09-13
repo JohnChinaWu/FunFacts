@@ -23,7 +23,10 @@ public class FunFactsActivity extends AppCompatActivity {
         View.OnClickListener listener = new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // The button was clicked, so update the fact TextView with a new fact.
 
+                String fact = "Ostriches can run faster than horses";
+                factTextView.setText(fact);
             }
         };
         showFactButton.setOnClickListener(listener);

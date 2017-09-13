@@ -13,7 +13,7 @@
         android:textSize="24sp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/factsTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
@@ -21,5 +21,13 @@
         android:layout_centerVertical="true"
         android:text="Ants stretch when they wake up in the morning."
         android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/showFactsButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="SHOW ANOTHER FUN FACT" />
 
 </RelativeLayout>
